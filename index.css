@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    background: wheat;
+    margin-top: 50px;
+}
+
+
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+
+.quantity button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+    background: #fff
+}
+
+
+
+
+.total-price {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.total-price .fa-rupee {
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 5px;
+}
